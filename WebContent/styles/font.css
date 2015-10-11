@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif, "宋体";
+	color:#000000;
+	font-size:12px;
+	line-height:150%;
+}
+#header {
+	color:#FFFFFF;
+}
+#nav {
+	font-size:14px;
+}

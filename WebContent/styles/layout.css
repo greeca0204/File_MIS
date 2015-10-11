@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/* 头部 */
+#header {
+	width:1024px;
+	height:450px;
+}
+/* 导航 */
+#nav {
+	margin:auto;
+	width:881px;
+	height:38px;
+	position:relative;
+	clear:both;
+}
+/* 主体 */
+#contain {
+	margin:auto;
+	width:881px;
+}
+/* 主体左区 */
+#left {
+	width:180px;
+	float:left;
+	margin-top: 10px;
+	
+}
+/*检索框*/
+#search {
+	width:418px;
+	height:120px;
+	margin-top:5px;
+	margin-left:12px;
+	position:relative;
+}
+/* 栏目 */
+#column {
+	width:418px;
+	height:350px;
+	margin-top:6px;
+	margin-left: 12px;
+	position:relative;
+}
+/* 主体右区 */
+#right {
+	width:auto;
+	margin-left:180px;
+	margin-top: 15px;
+	font-size: 14px;
+}
+#news {
+	margin:auto;
+	margin-top:4px;
+	height:200px;
+	width:420px;
+	padding-top:30px;
+}
+#pic {
+	margin:auto;
+	width:420px;
+	height:120px;
+}
+#feedback {
+	margin:auto;
+	width:420px;
+	height:42px;
+}
+/* 功能区 */
+#function {
+	clear:both;
+	margin:auto;
+	margin-bottom:3px;
+	width:879px;
+	height:35px;
+}
+#login {
+	width:420px;
+	height:35px;
+	margin-left: 18px;
+	position:relative;
+}
+/* 版权区 */
+#footer {
+	clear:both;
+	margin:auto;
+	width:881px;
+	height:74px;
+	position:relative;
+}

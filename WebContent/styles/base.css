@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-image:url(../images/bg.png);
+	background-repeat: repeat-x;
+}

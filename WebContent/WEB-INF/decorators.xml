@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators>
+
+	<excludes>
+		<pattern>/dojo/*</pattern>
+		<pattern>/*upload*</pattern>
+    </excludes>
+ 	
+	<decorator name="main" page="/panel.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="simple" page="/panelsimple.jsp">
+		<pattern>/login.jsp</pattern>
+		<pattern>/login*</pattern>
+		<pattern>/logout*</pattern>
+	</decorator>	
+
+</decorators>
