@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 表格样式 */
+.tableTitle {
+	line-height: 30px;
+}
+
+.listTable {
+	line-height: 160%;
+}
+.listTable table {
+	border: 1px solid silver;
+}
+.listTable .tableHeader {
+	background-color: #308dbb;
+	color: white;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin: 0px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-color: white;
+	height: 25px;
+}
+
+.listTable .odd {
+    background-color: #FFFFFF;
+}
+.listTable .even {
+    background-color: #DFE4E8;
+}
+
+.detailTable .header {
+	background-color: #308dbb;
+	color: white;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	height: 30px;
+}
+.detailTable {
+	margin: auto;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.detailTable input[type=text] {
+	height: 20px;
+}
+.detailTable td {
+	border: 1px solid #308dbb;
+	padding: 2px;
+}
+
+/* 错误样式 */
+.error {
+	color: red;
+	padding-left: 3px;
+}
+

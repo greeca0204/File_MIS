@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+/* 头部 */
+#header {
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#header ul {
+	list-style:none;
+	width: 187px;
+	margin-left:700px;
+	margin-top:38px;
+}
+#header li {
+	float:left;
+	padding:3px;
+}
+/* 导航 */
+#nav {
+	background-image: url(../images/bgNav.png);
+}
+#nav ul {
+	list-style:none;
+	position:absolute;
+	width: 881px;
+}
+#nav li {
+	float:left;
+}
+#nav1 {
+	position: absolute;
+	left: 69px;
+	top: 15px;
+}
+#nav2 {
+	position: absolute;
+	left: 213px;
+	top: 15px;
+}
+#nav3 {
+	position: absolute;
+	left: 356px;
+	top: 15px;
+}
+#nav4 {
+	position: absolute;
+	left: 499px;
+	top: 15px;
+}
+#nav5 {
+	position: absolute;
+	left: 626px;
+	top: 15px;
+}
+#nav6 {
+	position: absolute;
+	left: 776px;
+	top: 15px;
+}
+/* 主体左区 */
+#left {
+	background-color:#FFFFFF;
+}
+/* 检索框 */
+#search {
+	border:#9eacb6 1px solid;
+}
+#search ul {
+	position:absolute;
+	border-bottom:#999999 1px solid;
+	list-style:none;
+	width: 348px;
+	left: 33px;
+	top: 7px;
+	height: 28px;
+}
+#search li {
+	float: left;
+	text-align:center;
+	padding:5px 10px 0px 10px;
+}
+#searchInput {
+	position:absolute;
+	left: 35px;
+	top: 57px;
+}
+#searchButton {
+	position:absolute;
+	left: 341px;
+	top: 57px;
+}
+/* 栏目 */
+#column {
+	background-repeat:no-repeat;
+	background-image:url(../images/title.jpg);
+}
+#column ul {
+	list-style:none;
+}
+#column li {
+	padding:4px;
+}
+#e-resource {
+	position:absolute;
+	width: 128px;
+	top: 28px;
+	left: -2px;
+}
+#service {
+	position:absolute;
+	left: 133px;
+	width: 136px;
+	top: 28px;
+}
+#FAQ {
+	position:absolute;
+	width:150px;
+	left: 268px;
+	top: 28px;
+}
+/* 主体右区 */
+#right {
+	background-color:#FFFFFF;
+	position:relative;
+}
+/* 新闻 */
+#news {
+	background-image:url(../images/news.jpg);
+	background-repeat:no-repeat;
+}
+#news ul {
+	list-style:none;
+}
+#news li {
+	padding:4px;
+}
+#newsList {
+	position:absolute;
+	top: 28px;
+	left: 3px;
+	width: 403px;
+}
+#pic {
+	background-image:url(../images/pic.jpg);
+	background-repeat:no-repeat;
+}
+#feedback {
+	background-image:url(../images/feedback.jpg);
+	background-repeat:no-repeat;
+}
+/* 功能区 */
+#function {
+	border:#9eacb6 1px solid;
+}
+#login {
+	background-image:url(../images/p.jpg);
+	background-repeat:no-repeat;
+	background-position:1px 8px;
+}
+#card {
+	position:absolute;
+	left: 43px;
+	top: 10px;
+}
+#password {
+	position:absolute;
+	left: 183px;
+	top: 10px;
+}
+#loginInputC {
+	position:absolute;
+	left: 103px;
+	top: 11px;
+}
+#loginInputP {
+	position:absolute;
+	left: 219px;
+	top: 11px;
+}
+#logButton {
+	position:absolute;
+	left: 307px;
+	top: 11px;
+}
+#regButton {
+	position:absolute;
+	left: 369px;
+	top: 11px;
+}
+/* 版权区 */
+#footer {
+	background-image: url(../images/bgFooter.gif);
+	background-repeat:no-repeat;
+	color:#234962;
+}
+#footer p {
+	position:absolute;
+	left: 12px;
+	top: 27px;
+}

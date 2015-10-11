@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	font-size: 12px;
+}
+
+#login {
+	font-size: 12px;
+	text-align: center;
+}
+
+.login {
+	border: #cccccc 1px solid;
+	width: 300px;
+	height: 132px;
+	background-image: url(../images/bg_mylib.png);
+	margin: auto;
+}
+
+#loginerr {
+	text-align: center;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.text {
+	height: 22px;
+	border: #CCCCCC 1px solid;
+	width: 160px;
+}
+
+.logintd {
+	padding-left: 0px;
+}
+
+.tip {
+	margin-top:5px;
+	height: 20px;
+	text-align: left;
+}

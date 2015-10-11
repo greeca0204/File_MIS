@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+
+<validators>
+	<field name="class_id">
+		<field-validator type="required">
+			<message>请选择文档分类</message>
+		</field-validator>
+	</field>
+	<field name="number">
+		<field-validator type="regex">
+			<param name="expression">([A-Y]\d{9})</param>
+			<message>文档编号格式错误，正确格式为[A-Z]+9位数字</message>
+		</field-validator>
+		<field-validator type="requiredstring">
+			<message>文档编号不能为空</message>
+		</field-validator>
+	</field>
+	<field name="name">
+		<field-validator type="requiredstring">
+			<message>文档名称不能为空</message>
+		</field-validator>
+	</field>
+	<field name="doc_time">
+		<field-validator type="required">
+			<message>文档时间不能为空</message>
+		</field-validator>
+		<field-validator type="date">
+			<message>文档时间不合法</message>
+		</field-validator>
+	</field>
+</validators>
